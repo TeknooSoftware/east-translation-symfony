@@ -1,0 +1,61 @@
+{
+    "name": "teknoo/east-translation-symfony",
+    "type": "metapackage",
+    "description": "Metapackage to install Teknoo East Translation in Symfony, Package following the #East programming philosophy, to make easily translatable objects",
+    "keywords": ["east","translation","cms"],
+    "homepage": "http://teknoo.software/east/translation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Déloge",
+            "email": "richard@teknoo.software",
+            "role": "Software architect, Lead developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/TeknooSoftware/east-translation-symfony/issues",
+        "source": "https://github.com/TeknooSoftware/east-translation-symfony"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/teknoo_software"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/TeknooSoftware"
+        }
+    ],
+    "require": {
+        "ext-simplexml" : "*",
+        "ext-mongodb" : "*",
+        "doctrine/common": "^3.4.5",
+        "doctrine/mongodb-odm": "^2.9",
+        "doctrine/mongodb-odm-bundle": "^4.7||^5",
+        "doctrine/persistence": "^3.4",
+        "php-di/php-di": "^7.0.7",
+        "symfony/form": "^6.3||^7",
+        "teknoo/bridge-phpdi-symfony": "^6.1",
+        "teknoo/east-common-symfony": "^3",
+        "teknoo/east-foundation-symfony": "^8",
+        "teknoo/east-translation-symfony": "^1",
+        "teknoo/recipe": "^6",
+        "teknoo/east-translation": "^1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "extra": {
+        "symfony" : {
+            "endpoint": [
+                "https://api.github.com/repos/TeknooSoftware/symfony-recipes/contents/index.json",
+                "flex://defaults"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "teknoo/composer-install": true
+        }
+    }
+}
