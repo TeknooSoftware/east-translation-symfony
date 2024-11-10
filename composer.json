@@ -38,7 +38,6 @@
         "teknoo/bridge-phpdi-symfony": "^6.1",
         "teknoo/east-common-symfony": "^3",
         "teknoo/east-foundation-symfony": "^8",
-        "teknoo/east-translation-symfony": "^1",
         "teknoo/recipe": "^6",
         "teknoo/east-translation": "^1"
     },
