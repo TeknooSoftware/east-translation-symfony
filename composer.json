@@ -32,7 +32,7 @@
         "doctrine/common": "^3.4.5",
         "doctrine/mongodb-odm": "^2.9",
         "doctrine/mongodb-odm-bundle": "^4.7||^5",
-        "doctrine/persistence": "^3.4",
+        "doctrine/persistence": "^3.4||^4",
         "php-di/php-di": "^7.0.7",
         "symfony/form": "^6.3||^7",
         "teknoo/bridge-phpdi-symfony": "^6.1",
