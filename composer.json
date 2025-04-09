@@ -30,16 +30,17 @@
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
         "doctrine/common": "^3.5",
-        "doctrine/mongodb-odm": "^2.10",
-        "doctrine/mongodb-odm-bundle": "^5.2",
+        "doctrine/mongodb-odm": "^2.11",
+        "doctrine/mongodb-odm-bundle": "^5.3",
+        "doctrine/persistence": "^4",
         "doctrine/persistence": "^3.4||^4",
         "php-di/php-di": "^7.0.7",
         "symfony/form": "^6.4||^7.2",
         "teknoo/bridge-phpdi-symfony": "^6.1.1",
-        "teknoo/east-common-symfony": "^3.0.7",
+        "teknoo/east-common-symfony": "^3.4",
         "teknoo/east-foundation-symfony": "^8.0.4",
         "teknoo/recipe": "^6.0.3",
-        "teknoo/east-translation": "^1.0.3"
+        "teknoo/east-translation": "^1.1"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
