@@ -4,7 +4,7 @@
     "description": "Metapackage to install Teknoo East Translation in Symfony, Package following the #East programming philosophy, to make easily translatable objects",
     "keywords": ["east","translation","cms"],
     "homepage": "http://teknoo.software/east/translation",
-    "license": "MIT",
+    "license": ["BSD-3-Clause"],
     "authors": [
         {
             "name": "Richard Déloge",
@@ -30,16 +30,16 @@
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
         "doctrine/common": "^3.5",
-        "doctrine/mongodb-odm": "^2.11",
-        "doctrine/mongodb-odm-bundle": "^5.3",
+        "doctrine/mongodb-odm": "^2.11.3",
+        "doctrine/mongodb-odm-bundle": "^5.3.1",
         "doctrine/persistence": "^4",
-        "php-di/php-di": "^7.0.7",
-        "symfony/form": "^6.4||^7.2",
-        "teknoo/bridge-phpdi-symfony": "^6.1.1",
-        "teknoo/east-common-symfony": "^3.5",
-        "teknoo/east-foundation-symfony": "^8.0.4",
-        "teknoo/recipe": "^6.0.3",
-        "teknoo/east-translation": "^1.1.1"
+        "php-di/php-di": "^7.1.1",
+        "symfony/form": "^6.4.24||^7.3",
+        "teknoo/bridge-phpdi-symfony": "^7.1",
+        "teknoo/east-common-symfony": "^4",
+        "teknoo/east-foundation-symfony": "^9",
+        "teknoo/recipe": "^7",
+        "teknoo/east-translation": "^2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
